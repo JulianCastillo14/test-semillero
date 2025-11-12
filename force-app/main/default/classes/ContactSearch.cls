@@ -4,8 +4,3 @@ public with sharing class ContactSearch {
         return contacts;
     }
 }
-
-List<Contact> contacts = ContactSearch.searchForContacts('Rogers','27215');
-for(Contact con : contacts){
-    System.debug('Contact Found: ' + con.Id + ' ' + con.Name);
-}
